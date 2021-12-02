@@ -132,7 +132,7 @@
     "insufficientBalance": "Insufficient balance",
     "noOpenWallet": "",
     "usbTransportError": "USB Transport error: {{message}}. This usually means your browser does not support WebUSB. Try using a Chromium-based browser and check application permissions.",
-    "ledgerAppVersionNotSupported": "Received: \"Ledger App Version not supported\", this can be a false positive, retry the operation, if the error persists, update the Oasis App on your Ledger.",
+    "ledgerAppVersionNotSupported": "Could not open Oasis App on Ledger, make sure it is unlocked and that the Oasis App is opened, and up to date.",
     "ledgerTransactionRejected": "Transaction rejected on Ledger",
     "ledgerNoDeviceSelected": "No ledger selected. If you wish to open your ledger, close this message and retry.",
     "ledgerCannotOpenOasisApp": "Could not open Oasis App on Ledger, make sure it is unlocked and that the Oasis App is opened.",

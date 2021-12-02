@@ -36,7 +36,7 @@ export function ErrorFormatter(props: Props) {
     ),
     [WalletErrors.LedgerAppVersionNotSupported]: t(
       'errors.ledgerAppVersionNotSupported',
-      'Received: "Ledger App Version not supported", this can be a false positive, retry the operation, if the error persists, update the Oasis App on your Ledger.',
+      'Could not open Oasis App on Ledger, make sure it is unlocked and that the Oasis App is opened, and up to date.',
     ),
     [WalletErrors.LedgerTransactionRejected]: t(
       'errors.ledgerTransactionRejected',

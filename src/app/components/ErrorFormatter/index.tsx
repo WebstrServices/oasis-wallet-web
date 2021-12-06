@@ -37,7 +37,7 @@ export function ErrorFormatter(props: Props) {
     ),
     [WalletErrors.LedgerAppVersionNotSupported]: t(
       'errors.ledgerAppVersionNotSupported',
-      'Could not open Oasis App on Ledger, make sure it is unlocked and that the Oasis App is opened, and up to date.',
+      'Oasis App on Ledger is closed or outdated. Make sure Ledger is unlocked, the Oasis App is opened and up to date.',
     ),
     [WalletErrors.LedgerTransactionRejected]: t(
       'errors.ledgerTransactionRejected',
@@ -47,7 +47,7 @@ export function ErrorFormatter(props: Props) {
       <Trans
         i18nKey="errors.ledgerNoDeviceSelected"
         t={t}
-        defaults="No ledger device selected. If your device was not selectable, make sure it is connected and <0>fix any USB connection issues with Ledger</0>."
+        defaults="No Ledger device selected. Make sure it is connected and <0>check common USB connection issues with Ledger</0>."
         components={[
           <Anchor
             href="https://support.ledger.com/hc/en-us/articles/115005165269-Fix-USB-connection-issues-with-Ledger-Live?support=true"
@@ -59,7 +59,7 @@ export function ErrorFormatter(props: Props) {
     ),
     [WalletErrors.LedgerCannotOpenOasisApp]: t(
       'errors.ledgerCannotOpenOasisApp',
-      'Could not open Oasis App on Ledger, make sure it is unlocked and that the Oasis App is opened.',
+      'Could not open Oasis App on Ledger. Make sure Ledger is unlocked and the Oasis App is opened.',
     ),
     [WalletErrors.LedgerUnknownError]: t('errors.unknownLedgerError', 'Unknown ledger error: {{message}}', {
       message,

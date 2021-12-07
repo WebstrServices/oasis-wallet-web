@@ -13,8 +13,8 @@ const server = http.createServer((request, response) => {
     rewrites: [
       {
         source: '**',
-        destination: '/index.html',
-      },
+        destination: '/index.html'
+      }
     ],
     // Disable etag so we don't need to clear cache if we only change CSP.
     etag: false,
@@ -25,11 +25,11 @@ const server = http.createServer((request, response) => {
           {
             // Keep synced with deployment
             key: 'Content-Security-Policy',
-            value: csp,
-          },
-        ],
-      },
-    ],
+            value: csp
+          }
+        ]
+      }
+    ]
   })
 })
 

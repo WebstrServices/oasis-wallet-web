@@ -1,3 +1,4 @@
+// Keep synced with deployment
 const csp = `
     default-src 'none';
     script-src

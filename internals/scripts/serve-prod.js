@@ -23,7 +23,6 @@ const server = http.createServer((request, response) => {
         source: '**',
         headers: [
           {
-            // Keep synced with deployment
             key: 'Content-Security-Policy',
             value: csp
           }
